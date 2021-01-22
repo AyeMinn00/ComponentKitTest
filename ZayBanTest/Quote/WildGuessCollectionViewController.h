@@ -7,7 +7,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import <ComponentKit/ComponentKit.h>
+#import <ComponentKit/CKComponent.h>
 #import "Quote.h"
 #import "QuoteContext.h"
 

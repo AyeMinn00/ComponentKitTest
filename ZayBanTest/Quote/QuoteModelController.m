@@ -41,7 +41,11 @@ static NSArray<Quote *>* generateRandomQuotes(NSInteger count)
 {
     NSMutableArray<Quote *>* quotes = [[NSMutableArray alloc] initWithCapacity:count];
     for(NSUInteger i=0; i<count; i++){
-        
+        NSDictionary<NSString *, NSString *> *quoteInfo = generateRandomQuoteInfo();
+            Quote *quote  = [[Quote alloc] initWithText:quoteInfo[@"text"]
+                                                 author:quoteInfo[@"author"]
+                                                  style:generateStyle(i)];
+            [quotes addObject:quote];
     }
     return quotes;
 }
