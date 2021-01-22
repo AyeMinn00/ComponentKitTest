@@ -21,9 +21,9 @@ PODS:
   - IGListKit (4.0.0):
     - IGListDiffKit (= 4.0.0)
   - JSONModel (1.8.0)
-  - MaterialComponents/AnimationTiming (119.5.0)
-  - MaterialComponents/Availability (119.5.0)
-  - MaterialComponents/Buttons (119.5.0):
+  - MaterialComponents/AnimationTiming (120.0.0)
+  - MaterialComponents/Availability (120.0.0)
+  - MaterialComponents/Buttons (120.0.0):
     - MaterialComponents/Elevation
     - MaterialComponents/Ink
     - MaterialComponents/private/Math
@@ -35,66 +35,66 @@ PODS:
     - MaterialComponents/Typography
     - MDFInternationalization
     - MDFTextAccessibility
-  - "MaterialComponents/Buttons+ColorThemer (119.5.0)":
+  - "MaterialComponents/Buttons+ColorThemer (120.0.0)":
     - MaterialComponents/Buttons
     - MaterialComponents/schemes/Color
-  - "MaterialComponents/Buttons+ShapeThemer (119.5.0)":
+  - "MaterialComponents/Buttons+ShapeThemer (120.0.0)":
     - MaterialComponents/Buttons
     - MaterialComponents/schemes/Shape
-  - "MaterialComponents/Buttons+Theming (119.5.0)":
+  - "MaterialComponents/Buttons+Theming (120.0.0)":
     - MaterialComponents/Buttons
     - "MaterialComponents/Buttons+ColorThemer"
     - "MaterialComponents/Buttons+ShapeThemer"
     - "MaterialComponents/Buttons+TypographyThemer"
     - MaterialComponents/schemes/Container
     - MaterialComponents/ShadowElevations
-  - "MaterialComponents/Buttons+TypographyThemer (119.5.0)":
+  - "MaterialComponents/Buttons+TypographyThemer (120.0.0)":
     - MaterialComponents/Buttons
     - MaterialComponents/schemes/Typography
-  - MaterialComponents/Elevation (119.5.0):
+  - MaterialComponents/Elevation (120.0.0):
     - MaterialComponents/Availability
     - MaterialComponents/private/Color
     - MaterialComponents/private/Math
-  - MaterialComponents/Ink (119.5.0):
+  - MaterialComponents/Ink (120.0.0):
     - MaterialComponents/Availability
     - MaterialComponents/private/Color
     - MaterialComponents/private/Math
-  - MaterialComponents/private/Application (119.5.0)
-  - MaterialComponents/private/Color (119.5.0):
+  - MaterialComponents/private/Application (120.0.0)
+  - MaterialComponents/private/Color (120.0.0):
     - MaterialComponents/Availability
-  - MaterialComponents/private/Math (119.5.0)
-  - MaterialComponents/Ripple (119.5.0):
+  - MaterialComponents/private/Math (120.0.0)
+  - MaterialComponents/Ripple (120.0.0):
     - MaterialComponents/AnimationTiming
     - MaterialComponents/Availability
     - MaterialComponents/private/Color
     - MaterialComponents/private/Math
-  - MaterialComponents/schemes/Color (119.5.0):
+  - MaterialComponents/schemes/Color (120.0.0):
     - MaterialComponents/Availability
     - MaterialComponents/private/Color
-  - MaterialComponents/schemes/Container (119.5.0):
+  - MaterialComponents/schemes/Container (120.0.0):
     - MaterialComponents/schemes/Color
     - MaterialComponents/schemes/Shape
     - MaterialComponents/schemes/Typography
-  - MaterialComponents/schemes/Shape (119.5.0):
+  - MaterialComponents/schemes/Shape (120.0.0):
     - MaterialComponents/ShapeLibrary
     - MaterialComponents/Shapes
-  - MaterialComponents/schemes/Typography (119.5.0):
+  - MaterialComponents/schemes/Typography (120.0.0):
     - "MaterialComponents/schemes/Typography+BasicFontScheme"
     - "MaterialComponents/schemes/Typography+Scheming"
     - MaterialComponents/Typography
-  - "MaterialComponents/schemes/Typography+BasicFontScheme (119.5.0)"
-  - "MaterialComponents/schemes/Typography+Scheming (119.5.0)"
-  - MaterialComponents/ShadowElevations (119.5.0)
-  - MaterialComponents/ShadowLayer (119.5.0):
+  - "MaterialComponents/schemes/Typography+BasicFontScheme (120.0.0)"
+  - "MaterialComponents/schemes/Typography+Scheming (120.0.0)"
+  - MaterialComponents/ShadowElevations (120.0.0)
+  - MaterialComponents/ShadowLayer (120.0.0):
     - MaterialComponents/ShadowElevations
-  - MaterialComponents/ShapeLibrary (119.5.0):
+  - MaterialComponents/ShapeLibrary (120.0.0):
     - MaterialComponents/private/Math
     - MaterialComponents/Shapes
-  - MaterialComponents/Shapes (119.5.0):
+  - MaterialComponents/Shapes (120.0.0):
     - MaterialComponents/private/Color
     - MaterialComponents/private/Math
     - MaterialComponents/ShadowLayer
-  - MaterialComponents/Typography (119.5.0):
+  - MaterialComponents/Typography (120.0.0):
     - MaterialComponents/private/Application
     - MaterialComponents/private/Math
     - MDFTextAccessibility
@@ -178,7 +178,7 @@ SPEC CHECKSUMS:
   IGListDiffKit: 665d6cf43ce726e676013db9c7d6c4294259b6b2
   IGListKit: fd5a5d21935298f5849fa49d426843cff97b77c7
   JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
-  MaterialComponents: 2cdc12c16528ed7e6f1d5bd6d6927c47f9f4e90f
+  MaterialComponents: 1f521dc333679daf0a397fe9dafe1e26ae13da78
   MDFInternationalization: 010097556d6b09d2c4ea38e0820ea6d37be6a314
   MDFTextAccessibility: 85c09a1bd9c321f494348e632a25063bcda35a53
   PINCache: 7a8fc1a691173d21dbddbf86cd515de6efa55086

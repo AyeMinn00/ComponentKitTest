@@ -57,4 +57,22 @@ static NSString *const oscarWilde = @"Oscar Wilde";
     } mode:CKUpdateModeSynchronous];
 }
 
+-(std::vector<CKComponentAnimation>)animationsFromPreviousComponent:(InteractiveQuoteComponent *)previousComponent
+{
+    if(previousComponent->_overlay == nil && _overlay != nil){
+        return {{_overlay , scaleToAppear()}};
+    }else{
+        return {};
+    }
+}
+
+static CAAnimation *scaleToAppear()
+{
+    CABasicAnimation *scale = [CABasicAnimation animationWithKeyPath:@"transform"];
+    scale.fromValue = [NSValue valueWithCATransform3D:CATransform3DMakeScale(0.0, 0.0, 0.0)];
+    scale.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseOut];
+    scale.duration = 0.2;
+    return scale;
+}
+
 @end

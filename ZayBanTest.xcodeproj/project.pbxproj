@@ -38,6 +38,9 @@
 		D57BC71125B2175E0004BA53 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D57BC71025B2175E0004BA53 /* NetworkManager.m */; };
 		D58AE91625AB886D00BFC035 /* PhotoComponent.mm in Sources */ = {isa = PBXBuildFile; fileRef = D58AE91525AB886D00BFC035 /* PhotoComponent.mm */; };
 		D58AE93325AB8FBE00BFC035 /* PhotoComponentProvider.mm in Sources */ = {isa = PBXBuildFile; fileRef = D58AE93125AB8FBE00BFC035 /* PhotoComponentProvider.mm */; };
+		D5CAC13F25BA9A7A0030C695 /* MonochromeQuoteComponent.mm in Sources */ = {isa = PBXBuildFile; fileRef = D5CAC13E25BA9A7A0030C695 /* MonochromeQuoteComponent.mm */; };
+		D5CAC15725BAA5800030C695 /* SombreQuoteComponent.mm in Sources */ = {isa = PBXBuildFile; fileRef = D5CAC15625BAA5800030C695 /* SombreQuoteComponent.mm */; };
+		D5CAC15D25BAB0370030C695 /* WarmQuoteComponent.mm in Sources */ = {isa = PBXBuildFile; fileRef = D5CAC15C25BAB0370030C695 /* WarmQuoteComponent.mm */; };
 		D5E698B425AC939100A59C0C /* ImageDownloader.mm in Sources */ = {isa = PBXBuildFile; fileRef = D5E698B325AC939100A59C0C /* ImageDownloader.mm */; };
 		D5E698B925AC94C900A59C0C /* NetworkService.m in Sources */ = {isa = PBXBuildFile; fileRef = D5E698B825AC94C900A59C0C /* NetworkService.m */; };
 		D5E698CF25ACC5DD00A59C0C /* MyController.mm in Sources */ = {isa = PBXBuildFile; fileRef = D5E698CE25ACC5DD00A59C0C /* MyController.mm */; };
@@ -106,6 +109,12 @@
 		D58AE91925AB88DE00BFC035 /* PhotoComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoComponent.h; sourceTree = "<group>"; };
 		D58AE93125AB8FBE00BFC035 /* PhotoComponentProvider.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = PhotoComponentProvider.mm; sourceTree = "<group>"; };
 		D58AE93225AB8FBE00BFC035 /* PhotoComponentProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoComponentProvider.h; sourceTree = "<group>"; };
+		D5CAC13D25BA9A7A0030C695 /* MonochromeQuoteComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MonochromeQuoteComponent.h; sourceTree = "<group>"; };
+		D5CAC13E25BA9A7A0030C695 /* MonochromeQuoteComponent.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = MonochromeQuoteComponent.mm; sourceTree = "<group>"; };
+		D5CAC15525BAA5800030C695 /* SombreQuoteComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SombreQuoteComponent.h; sourceTree = "<group>"; };
+		D5CAC15625BAA5800030C695 /* SombreQuoteComponent.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = SombreQuoteComponent.mm; sourceTree = "<group>"; };
+		D5CAC15B25BAB0370030C695 /* WarmQuoteComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WarmQuoteComponent.h; sourceTree = "<group>"; };
+		D5CAC15C25BAB0370030C695 /* WarmQuoteComponent.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = WarmQuoteComponent.mm; sourceTree = "<group>"; };
 		D5E698AC25AC92DB00A59C0C /* ImageDownloader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageDownloader.h; sourceTree = "<group>"; };
 		D5E698B325AC939100A59C0C /* ImageDownloader.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ImageDownloader.mm; sourceTree = "<group>"; };
 		D5E698B725AC94C900A59C0C /* NetworkService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkService.h; sourceTree = "<group>"; };
@@ -225,17 +234,23 @@
 		D526856A25B9F616004C2FCF /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				D526856B25B9F654004C2FCF /* QuoteWithBackgroundComponent.h */,
-				D526856C25B9F654004C2FCF /* QuoteWithBackgroundComponent.mm */,
 				D52C217F25B9FDCD003C4D4F /* FrostedQuoteComponent.h */,
 				D52C218025B9FDCD003C4D4F /* FrostedQuoteComponent.mm */,
 				D52C218425BA05CA003C4D4F /* InteractiveQuoteComponent.h */,
 				D52C218525BA05CA003C4D4F /* InteractiveQuoteComponent.mm */,
+				D5CAC13D25BA9A7A0030C695 /* MonochromeQuoteComponent.h */,
+				D5CAC13E25BA9A7A0030C695 /* MonochromeQuoteComponent.mm */,
 				D52C218925BA068E003C4D4F /* QuoteComponent.h */,
 				D52C218A25BA068E003C4D4F /* QuoteComponent.mm */,
 				D52C218E25BA08CE003C4D4F /* QuoteComponentFactory.h */,
+				D526856B25B9F654004C2FCF /* QuoteWithBackgroundComponent.h */,
+				D526856C25B9F654004C2FCF /* QuoteWithBackgroundComponent.mm */,
 				D52C219025BA09F5003C4D4F /* SuccessIndicatorComponent.h */,
 				D52C219125BA09F5003C4D4F /* SuccessIndicatorComponent.mm */,
+				D5CAC15525BAA5800030C695 /* SombreQuoteComponent.h */,
+				D5CAC15625BAA5800030C695 /* SombreQuoteComponent.mm */,
+				D5CAC15B25BAB0370030C695 /* WarmQuoteComponent.h */,
+				D5CAC15C25BAB0370030C695 /* WarmQuoteComponent.mm */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -428,10 +443,12 @@
 				D5536DF125ADD7E800F9D8AC /* Picture.swift in Sources */,
 				D58AE91625AB886D00BFC035 /* PhotoComponent.mm in Sources */,
 				D559AFF025B3892900520745 /* JobList.m in Sources */,
+				D5CAC15D25BAB0370030C695 /* WarmQuoteComponent.mm in Sources */,
 				D58AE93325AB8FBE00BFC035 /* PhotoComponentProvider.mm in Sources */,
 				D5E6990625ACD33200A59C0C /* NameComponentProvider.mm in Sources */,
 				D526855E25B9EFA8004C2FCF /* QuotesPage.m in Sources */,
 				D50ECBE425AB7BD900682884 /* main.m in Sources */,
+				D5CAC15725BAA5800030C695 /* SombreQuoteComponent.mm in Sources */,
 				D526856725B9F285004C2FCF /* QuoteModelController.m in Sources */,
 				D5E698B425AC939100A59C0C /* ImageDownloader.mm in Sources */,
 				D5536DD225ADD39B00F9D8AC /* PhotoCellNode.swift in Sources */,
@@ -447,6 +464,7 @@
 				D57BC71125B2175E0004BA53 /* NetworkManager.m in Sources */,
 				D50ECBD625AB7BD700682884 /* SceneDelegate.m in Sources */,
 				D52C218B25BA068E003C4D4F /* QuoteComponent.mm in Sources */,
+				D5CAC13F25BA9A7A0030C695 /* MonochromeQuoteComponent.mm in Sources */,
 				D5676DC325B4788C00EFEEB1 /* ListItemComponent.mm in Sources */,
 				D559AFE725B3820500520745 /* JobComponent.mm in Sources */,
 				D52C219225BA09F5003C4D4F /* SuccessIndicatorComponent.mm in Sources */,
@@ -595,7 +613,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3CB3MPS7GA;
+				DEVELOPMENT_TEAM = PG284DFZU6;
 				INFOPLIST_FILE = ZayBanTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -618,7 +636,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3CB3MPS7GA;
+				DEVELOPMENT_TEAM = PG284DFZU6;
 				INFOPLIST_FILE = ZayBanTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
