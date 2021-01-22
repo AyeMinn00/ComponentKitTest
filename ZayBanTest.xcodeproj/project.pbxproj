@@ -38,6 +38,7 @@
 		D57BC71125B2175E0004BA53 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D57BC71025B2175E0004BA53 /* NetworkManager.m */; };
 		D58AE91625AB886D00BFC035 /* PhotoComponent.mm in Sources */ = {isa = PBXBuildFile; fileRef = D58AE91525AB886D00BFC035 /* PhotoComponent.mm */; };
 		D58AE93325AB8FBE00BFC035 /* PhotoComponentProvider.mm in Sources */ = {isa = PBXBuildFile; fileRef = D58AE93125AB8FBE00BFC035 /* PhotoComponentProvider.mm */; };
+		D5B3B30525BACCEF002E5280 /* WildGuessCollectionViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = D5B3B30425BACCEF002E5280 /* WildGuessCollectionViewController.mm */; };
 		D5CAC13F25BA9A7A0030C695 /* MonochromeQuoteComponent.mm in Sources */ = {isa = PBXBuildFile; fileRef = D5CAC13E25BA9A7A0030C695 /* MonochromeQuoteComponent.mm */; };
 		D5CAC15725BAA5800030C695 /* SombreQuoteComponent.mm in Sources */ = {isa = PBXBuildFile; fileRef = D5CAC15625BAA5800030C695 /* SombreQuoteComponent.mm */; };
 		D5CAC15D25BAB0370030C695 /* WarmQuoteComponent.mm in Sources */ = {isa = PBXBuildFile; fileRef = D5CAC15C25BAB0370030C695 /* WarmQuoteComponent.mm */; };
@@ -109,6 +110,8 @@
 		D58AE91925AB88DE00BFC035 /* PhotoComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoComponent.h; sourceTree = "<group>"; };
 		D58AE93125AB8FBE00BFC035 /* PhotoComponentProvider.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = PhotoComponentProvider.mm; sourceTree = "<group>"; };
 		D58AE93225AB8FBE00BFC035 /* PhotoComponentProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoComponentProvider.h; sourceTree = "<group>"; };
+		D5B3B30325BACCEF002E5280 /* WildGuessCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WildGuessCollectionViewController.h; sourceTree = "<group>"; };
+		D5B3B30425BACCEF002E5280 /* WildGuessCollectionViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = WildGuessCollectionViewController.mm; sourceTree = "<group>"; };
 		D5CAC13D25BA9A7A0030C695 /* MonochromeQuoteComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MonochromeQuoteComponent.h; sourceTree = "<group>"; };
 		D5CAC13E25BA9A7A0030C695 /* MonochromeQuoteComponent.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = MonochromeQuoteComponent.mm; sourceTree = "<group>"; };
 		D5CAC15525BAA5800030C695 /* SombreQuoteComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SombreQuoteComponent.h; sourceTree = "<group>"; };
@@ -227,6 +230,8 @@
 				D526855D25B9EFA8004C2FCF /* QuotesPage.m */,
 				D526856525B9F285004C2FCF /* QuoteModelController.h */,
 				D526856625B9F285004C2FCF /* QuoteModelController.m */,
+				D5B3B30325BACCEF002E5280 /* WildGuessCollectionViewController.h */,
+				D5B3B30425BACCEF002E5280 /* WildGuessCollectionViewController.mm */,
 			);
 			path = Quote;
 			sourceTree = "<group>";
@@ -465,6 +470,7 @@
 				D50ECBD625AB7BD700682884 /* SceneDelegate.m in Sources */,
 				D52C218B25BA068E003C4D4F /* QuoteComponent.mm in Sources */,
 				D5CAC13F25BA9A7A0030C695 /* MonochromeQuoteComponent.mm in Sources */,
+				D5B3B30525BACCEF002E5280 /* WildGuessCollectionViewController.mm in Sources */,
 				D5676DC325B4788C00EFEEB1 /* ListItemComponent.mm in Sources */,
 				D559AFE725B3820500520745 /* JobComponent.mm in Sources */,
 				D52C219225BA09F5003C4D4F /* SuccessIndicatorComponent.mm in Sources */,

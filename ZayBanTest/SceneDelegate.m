@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "MyController.h"
 #import "AsyncVc.h"
+#import "WildGuessCollectionViewController.h"
 
 
 @interface SceneDelegate ()
@@ -24,9 +25,10 @@
     // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
     UIWindowScene *_scene = (UIWindowScene *) scene;
     _window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds] ];
-    MyController *controller = [[MyController alloc] initWithNibName:nil bundle:nil];
+//    MyController *controller = [[MyController alloc] initWithNibName:nil bundle:nil];
+    WildGuessCollectionViewController *wildeGuessViewController = [WildGuessCollectionViewController new];
 //    AsyncVc *asyncVc = [[AsyncVc alloc] init];
-    UINavigationController *navi = [ [UINavigationController alloc] initWithRootViewController: controller];
+    UINavigationController *navi = [ [UINavigationController alloc] initWithRootViewController: wildeGuessViewController];
     _window.rootViewController = navi;
     [_window makeKeyAndVisible];
     [_window setWindowScene:_scene];
