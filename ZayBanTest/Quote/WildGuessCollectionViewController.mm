@@ -89,6 +89,8 @@ static UICollectionViewLayout *makeLayout(){
 	NSInteger position = quotesPage.position;
 	NSMutableDictionary<NSIndexPath *, Quote *> *items = [NSMutableDictionary new];
 	for (NSInteger i = 0; i < [quotes count]; i++) {
+        Quote *q = quotes[i];
+        NSLog(@"Quote is %@" , q.text);
 		[items setObject:quotes[i] forKey:[NSIndexPath indexPathForRow:position + i inSection:0]];
 	}
 	CKDataSourceChangeset *changeset =
